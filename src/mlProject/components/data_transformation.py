@@ -49,9 +49,6 @@ class DataTransformation:
         stop_words = set(stopwords.words('english'))
         words = [word for word in words if not word in stop_words]
 
-        word_counts = Counter(words)
-        top_words = word_counts.most_common(100)
-
         def clean_text(text):
             text = re.sub('<.*?>', '', text)
 
