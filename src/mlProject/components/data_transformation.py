@@ -39,7 +39,7 @@ class DataTransformation:
     
 
         data = pd.read_csv(self.config.data_path)
-
+        data['text'].drop_duplicates(inplace = True)
         all_text = ' '.join(data['text'].values)
         all_text = re.sub(r'http\S+', '', all_text)
         all_text = re.sub(r'@\S+', '', all_text)
