@@ -48,12 +48,9 @@ class DataTransformation:
         stop_words = set(stopwords.words('english'))
         words = [word for word in words if not word in stop_words]
 
-<<<<<<< HEAD
         
         
 
-=======
->>>>>>> 59d14c30255508dc1ba4b2c327081c1cfefee1f4
         def clean_text(text):
             text = re.sub('<.*?>', '', text)
 
