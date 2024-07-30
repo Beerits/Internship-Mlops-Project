@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/LENOVO/OneDrive/Desktop/Miraffra/Internship-Mlops-Project/mlruns/0/5609f66cc1094a338433a9aa36e5712b/artifacts
+end_time: 1722275746752
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5609f66cc1094a338433a9aa36e5712b
+run_name: sneaky-conch-410
+run_uuid: 5609f66cc1094a338433a9aa36e5712b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722275734527
+status: 3
+tags: []
+user_id: LENOVO

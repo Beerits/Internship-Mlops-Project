@@ -1,0 +1,99 @@
+body {
+	margin:  0;
+}
+
+.page-content {
+	width: 100%;
+	margin: 0 auto;
+	background: #4077c8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh; /* Make sure the page content takes the full viewport height */
+}
+
+.form-v9-content {
+	width: 100%;
+	max-width: 975px; /* Maximum width for the form container */
+	border-radius: 15px;
+	margin: 0;
+	padding: 30px;
+	background: #fff; /* Change to white for better contrast */
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	font-family: 'Nunito', sans-serif;
+	color: #333; /* Change text color to dark for better readability */
+}
+
+.form-v9-content .form-detail {
+	padding: 30px;
+}
+
+.form-v9-content .form-detail h2 {
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 55px;
+}
+
+.form-v9-content .form-row {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.form-v9-content .form-row .input-text {
+	width: 100%;
+	max-width: 500px; /* Maximum width for the input field */
+	padding: 14.5px 30px;
+	border: 2px solid #ccc;
+	border-radius: 27.5px;
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	background: rgba(255, 255, 255, 0.2);
+}
+
+.form-v9-content .form-row-last {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.form-v9-content .form-row-last .register {
+	background: #f25d5d;
+	border-radius: 25px;
+	width: 180px;
+	padding: 14px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	border: none;
+	cursor: pointer;
+	font-family: 'Nunito', sans-serif;
+	color: #fff;
+	font-weight: 700;
+	font-size: 16px;
+	text-align: center; /* Center the text inside the button */
+}
+
+.form-v9-content .form-row-last .register:hover {
+	background: #d95252;
+}
+
+/* Responsive */
+@media screen and (max-width: 1199px) {
+	.form-v9-content {
+		margin: 20px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.form-v9-content .form-row {
+		flex-direction: column;
+	}
+	.form-v9-content .form-row {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.form-v9-content .form-detail {
+		padding: 30px 15px;
+	}
+}

@@ -5,7 +5,7 @@ import pandas as pd
 
 # from collections import Counter
 import re
-
+import joblib
 import nltk
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
@@ -71,6 +71,8 @@ class DataTransformation:
         cv = CountVectorizer(max_features=5000)
         X = cv.fit_transform(data['cleaned_text']).toarray()
         y = data['spam']
+
+        joblib.dump(cv, 'artifacts/vectorizer.joblib')
 
         # Split the data into training and test sets. (0.75, 0.25) split.
         # train, test = train_test_split(data)
