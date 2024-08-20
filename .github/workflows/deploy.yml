@@ -32,5 +32,5 @@ jobs:
         script: |
           cd C:\Users\LENOVO\OneDrive\Desktop\Miraffra\Internship-Mlops-Project
           git pull origin main
-          npm install  # Adapt this to your project
+          npm install -r requirements.txt # Adapt this to your project
           pm2 restart all  # Restart your Node.js app, if using PM2
