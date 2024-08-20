@@ -30,7 +30,7 @@ jobs:
         username: ${{ secrets.AWS_EC2_USER }}  # Add this to your GitHub Secrets
         key: ${{ secrets.AWS_EC2_KEY }}  # Add your SSH private key to GitHub Secrets
         script: |
-          cd /path/to/your/app
+          cd C:\Users\LENOVO\OneDrive\Desktop\Miraffra\Internship-Mlops-Project
           git pull origin main
           npm install  # Adapt this to your project
           pm2 restart all  # Restart your Node.js app, if using PM2
