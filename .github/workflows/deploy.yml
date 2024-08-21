@@ -5,7 +5,7 @@
 #     branches:
 #       - main  # Trigger the workflow when pushing to the main branch
  
-# jobs:
+# jobs: 
 #   deploy:
 #     runs-on: ubuntu-latest
 #     steps:
