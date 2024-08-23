@@ -27,8 +27,7 @@ WORKDIR /app
 COPY . /app
 
 RUN pip install --no-cache-dir -r requirements.txt
-RUN python -m nltk.downloader punkt
-
+RUN python -m nltk.downloader punkt stopwords
 CMD ["gunicorn", "--bind", "0.0.0.0:5000", "app:app"]
 
 
