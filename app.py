@@ -26,8 +26,8 @@ def index():
             predict = obj.predict(email)
             return render_template('results.html', prediction=str(predict))
         except Exception as e:
-            print('The Exception message is: ', e)
-            return 'something is wrong'
+            print(f"Error occurred: {e}")
+            return f"An error occurred: {e}"
     else:
         return render_template('index.html')
 
