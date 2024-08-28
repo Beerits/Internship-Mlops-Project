@@ -115,17 +115,17 @@ jobs:
         if: success()
         run: |
           curl -X POST "https://api.twilio.com/2010-04-01/Accounts/${{ secrets.TWILIO_ACCOUNT_SID }}/Messages.json" \
-          --data-urlencode "Deployment successful for ${GITHUB_REPOSITORY}." \
+          --data-urlencode "Body=Deployment successful for ${GITHUB_REPOSITORY}." \
           --data-urlencode "From=${{ secrets.TWILIO_FROM_NUMBER }}" \
           --data-urlencode "To=${{ secrets.TO_NUMBER }}" \
           -u ${{ secrets.TWILIO_ACCOUNT_SID }}:${{ secrets.TWILIO_AUTH_TOKEN }}
 
           
-      - name: Send Success SMS
+      - name: Send Failure SMS
         if: failure()
         run: |
           curl -X POST "https://api.twilio.com/2010-04-01/Accounts/${{ secrets.TWILIO_ACCOUNT_SID }}/Messages.json" \
-          --data-urlencode "Deployment failed for ${GITHUB_REPOSITORY}. Please check the logs." \
+          --data-urlencode "Body=Deployment failed for ${GITHUB_REPOSITORY}. Please check the logs." \
           --data-urlencode "From=${{ secrets.TWILIO_FROM_NUMBER }}" \
           --data-urlencode "To=${{ secrets.TO_NUMBER }}" \
           -u ${{ secrets.TWILIO_ACCOUNT_SID }}:${{ secrets.TWILIO_AUTH_TOKEN }}
