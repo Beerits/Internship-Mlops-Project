@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/LENOVO/OneDrive/Desktop/Miraffra/Internship-Mlops-Project/mlruns/0/7ac1ccc90f2249cba7def94b9dddd3a5/artifacts
+end_time: 1724650600563
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7ac1ccc90f2249cba7def94b9dddd3a5
+run_name: capable-hare-263
+run_uuid: 7ac1ccc90f2249cba7def94b9dddd3a5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724650592078
+status: 3
+tags: []
+user_id: LENOVO

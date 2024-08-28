@@ -1,3 +1,11 @@
-# ElasticNet:
-#   alpha: 0.2
-#   l1_ratio: 0.1
+RandomForestClassifier:
+  n_estimators: 300       # Number of trees in the forest
+  class_weight: 'balanced'
+  random_state: 42         # Seed for reproducibility
+
+
+
+  #   max_depth: 10           # Maximum depth of the trees
+  # min_samples_split: 2     # Minimum number of samples required to split an internal node
+  # min_samples_leaf: 1      # Minimum number of samples required to be at a leaf node
+    # bootstrap: True          # Whether bootstrap samples are used when building trees

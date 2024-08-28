@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/LENOVO/OneDrive/Desktop/Miraffra/Internship-Mlops-Project/mlruns/0/e3d059730e62479ea5397619f1fb5b07/artifacts
+end_time: 1724601895087
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e3d059730e62479ea5397619f1fb5b07
+run_name: whimsical-koi-143
+run_uuid: e3d059730e62479ea5397619f1fb5b07
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724601886092
+status: 3
+tags: []
+user_id: LENOVO

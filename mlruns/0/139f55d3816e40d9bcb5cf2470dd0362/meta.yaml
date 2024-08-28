@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/LENOVO/OneDrive/Desktop/Miraffra/Internship-Mlops-Project/mlruns/0/139f55d3816e40d9bcb5cf2470dd0362/artifacts
+end_time: 1724610712561
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 139f55d3816e40d9bcb5cf2470dd0362
+run_name: abundant-robin-4
+run_uuid: 139f55d3816e40d9bcb5cf2470dd0362
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724610700397
+status: 3
+tags: []
+user_id: LENOVO
