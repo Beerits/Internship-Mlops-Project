@@ -119,8 +119,8 @@ jobs:
           const client = twilio('${{ secrets.TWILIO_ACCOUNT_SID }}', '${{ secrets.TWILIO_AUTH_TOKEN }}');
           client.messages.create({
               from: '${{ secrets.TWILIO_PHONE_NUMBER }}',
-              to: '${{ secrets.TO_PHONE_NUMBER }}',
-              body: 'Deployment succeeded for ${GITHUB_REPOSITORY}!'
+              to: '${{ secrets.TO_NUMBER }}',
+              body: 'Deployment succeeded for ${_GITHUB_REPOSITORY}!'
           }).then(message => console.log(message.sid));
           "
           
@@ -132,7 +132,7 @@ jobs:
           const client = twilio('${{ secrets.TWILIO_ACCOUNT_SID }}', '${{ secrets.TWILIO_AUTH_TOKEN }}');
           client.messages.create({
               from: '${{ secrets.TWILIO_PHONE_NUMBER }}',
-              to: '${{ secrets.TO_PHONE_NUMBER }}',
-              body: 'Deployment failed for ${GITHUB_REPOSITORY}. Please check the logs.'
+              to: '${{ secrets.TO_NUMBER }}',
+              body: 'Deployment failed for ${_GITHUB_REPOSITORY}. Please check the logs.'
           }).then(message => console.log(message.sid));
           "   
