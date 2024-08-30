@@ -1,14 +1,10 @@
-
-
 import joblib
-import numpy as np
-import pandas as pd
 from pathlib import Path
 import re
 import nltk
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
-from sklearn.feature_extraction.text import CountVectorizer
+
 
 # Download necessary NLTK data files
 nltk.download('stopwords')

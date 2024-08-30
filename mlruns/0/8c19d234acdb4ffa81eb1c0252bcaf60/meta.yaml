@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/LENOVO/OneDrive/Desktop/Miraffra/Internship-Mlops-Project/mlruns/0/8c19d234acdb4ffa81eb1c0252bcaf60/artifacts
+end_time: 1724843626427
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8c19d234acdb4ffa81eb1c0252bcaf60
+run_name: delicate-gnat-358
+run_uuid: 8c19d234acdb4ffa81eb1c0252bcaf60
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724843618609
+status: 3
+tags: []
+user_id: LENOVO

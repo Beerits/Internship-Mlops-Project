@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/LENOVO/OneDrive/Desktop/Miraffra/Internship-Mlops-Project/mlruns/0/0d5415ea7dab437285c2897b8b1292e5/artifacts
+end_time: 1724837323627
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0d5415ea7dab437285c2897b8b1292e5
+run_name: tasteful-snake-325
+run_uuid: 0d5415ea7dab437285c2897b8b1292e5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724837315284
+status: 3
+tags: []
+user_id: LENOVO

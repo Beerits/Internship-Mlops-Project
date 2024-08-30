@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/LENOVO/OneDrive/Desktop/Miraffra/Internship-Mlops-Project/mlruns/0/4a654281c8424739815b52ca8bfa82d2/artifacts
+end_time: 1724839890701
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4a654281c8424739815b52ca8bfa82d2
+run_name: agreeable-owl-900
+run_uuid: 4a654281c8424739815b52ca8bfa82d2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724839882435
+status: 3
+tags: []
+user_id: LENOVO

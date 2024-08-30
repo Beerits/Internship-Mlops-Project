@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/LENOVO/OneDrive/Desktop/Miraffra/Internship-Mlops-Project/mlruns/0/fd7f12937e4349718c4d2a9abe30912a/artifacts
+end_time: 1724846710037
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fd7f12937e4349718c4d2a9abe30912a
+run_name: marvelous-hog-877
+run_uuid: fd7f12937e4349718c4d2a9abe30912a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724846700251
+status: 3
+tags: []
+user_id: LENOVO

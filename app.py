@@ -32,5 +32,4 @@ def index():
         return render_template('index.html')
 
 if __name__ == "__main__":
-    # app.debug = True  # enable debug mode
     app.run(host='0.0.0.0', port=5000)  # run the app
